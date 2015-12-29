@@ -8,7 +8,7 @@ echo "docker run"
 docker run -it -d --privileged -v /var/lib/docker --name ubuntu-docker kiwenlau/ubuntu-docker
 
 
-echo "docker logs ubuntu-docker"
-docker logs ubuntu-docker
+#echo "docker logs ubuntu-docker"
+#docker logs ubuntu-docker
 
 #docker exec -it ubuntu-docker bash
