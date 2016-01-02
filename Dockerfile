@@ -13,6 +13,6 @@ ADD wrapdocker /usr/local/bin/
 RUN chmod +x /usr/local/bin/wrapdocker
 
 VOLUME /var/lib/docker
-CMD ["wrapdocker"]
+CMD ["docker", "daemon", "-D"]
 
 # docker build -t kiwenlau/ubuntu-docker .
