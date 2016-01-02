@@ -1,4 +1,4 @@
-#运行步骤
+##运行步骤
 
 1. 下载镜像
 
@@ -37,3 +37,20 @@ Digest: sha256:d3b59c1d15c3cfb58d9f2eaab8a232f21fc670c67c11f582bc48fb32df17f3b3
 Status: Downloaded newer image for ubuntu:14.04
 Hello world
 ```
+
+##其他命令:
+
+构建镜像
+
+```
+git clone https://github.com/kiwenlau/ubuntu-docker
+cd ubuntu-docker
+sudo docker build -t kiwenlau/ubuntu-docker .
+```
+
+查看Docker日志
+
+```
+sudo docker logs ubuntu-docker
+```
+
